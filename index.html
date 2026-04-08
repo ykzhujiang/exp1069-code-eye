@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PART 1: ASSET DESCRIPTIONS</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, 'PingFang SC', sans-serif; background: #0a0a0f; color: #e0e0e0; max-width: 600px; margin: 0 auto; padding: 16px; font-size: 16px; line-height: 1.7; }
+h1 { text-align: center; font-size: 24px; margin: 20px 0; color: #fff; }
+h2 { font-size: 20px; margin: 16px 0 12px; color: #4fc3f7; }
+.section { background: #1a1a2e; border-radius: 12px; padding: 16px; margin: 16px 0; }
+.character { display: flex; gap: 12px; margin: 12px 0; align-items: flex-start; }
+.char-img { width: 80px; height: 80px; border-radius: 50%; object-fit: cover; border: 2px solid #4fc3f7; flex-shrink: 0; }
+.scene { margin: 12px 0; }
+.scene-img { width: 100%; border-radius: 8px; margin-bottom: 8px; }
+.segment { background: #16213e; border-radius: 12px; padding: 16px; margin: 16px 0; border-left: 4px solid #4fc3f7; }
+.meta { color: #aaa; font-size: 14px; margin: 4px 0; }
+.physical-state { background: #0d1b2a; padding: 10px; border-radius: 8px; margin: 8px 0; font-size: 14px; color: #8899aa; white-space: pre-line; }
+.part { background: #1a1a2e; padding: 12px; border-radius: 8px; margin: 8px 0; }
+.part-num { background: #4fc3f7; color: #000; padding: 2px 8px; border-radius: 4px; font-weight: bold; font-size: 13px; }
+.dialogue { color: #ffd54f; font-weight: bold; }
+.char-tag { color: #4fc3f7; font-weight: bold; }
+.camera { background: #1b2838; padding: 8px 12px; border-radius: 8px; margin: 8px 0; font-size: 14px; color: #81c784; }
+</style>
+</head>
+<body>
+<h1>PART 1: ASSET DESCRIPTIONS</h1>
+<div class="section"><h2>👤 角色设定</h2><div class="character"><img src="assets/林昊.png" class="char-img" alt="林昊"><div><strong>[林昊]</strong><p>28岁男性，身高175cm，体型偏瘦；肤色偏白；脸型偏长，颧骨微凸，鼻梁挺直但略窄，嘴唇薄，眼睛不大不小，眼神略显疲惫，戴黑色粗框眼镜；黑色短发，发梢微乱；穿灰色细格纹衬衫，内搭白色圆领T恤，深蓝色修身牛仔裤，配一双白色运动鞋。</p></div></div><div class="character"><img src="assets/赵哥.png" class="char-img" alt="赵哥"><div><strong>[赵哥]</strong><p>35岁男性，身高172cm，体型微胖，略有啤酒肚；肤色略显红润；圆脸，下巴不明显，眼睛小而有神，眼角略下垂，眉毛浓密，鼻头圆润，嘴唇厚实，嘴角常带微笑，戴无框细边眼镜；黑色短发，发量适中，发型整齐略显油光；穿藏蓝色Polo衫，黑色西裤，配一双黑色皮鞋。</p></div></div><div class="character"><img src="assets/办公室-深夜.png" class="char-img" alt="办公室-深夜"><div><strong>[办公室-深夜]</strong><p>现代科技公司开放式办公区，深夜只有零星工位亮着冷白色屏幕光，暗光环境，多显示器工位，散落的咖啡杯和零食包装，窗外城市夜景隐约可见。</p></div></div><div class="character"><img src="assets/林昊.png" class="char-img" alt="林昊"><div><strong>[林昊]</strong><p>画面左侧，坐在工位椅上，双手搭在键盘上，眼睛疲惫半眯盯着屏幕</p></div></div><div class="character"><img src="assets/赵哥.png" class="char-img" alt="赵哥"><div><strong>[赵哥]</strong><p>画面右侧远处，坐在隔壁工位，背对[林昊]，低头看手机</p></div></div></div><div class="section"><h2>🎬 场景</h2><div class="scene"><img src="assets/办公室-深夜.png" class="scene-img" alt="办公室-深夜"><p><strong>[办公室-深夜]</strong>: 现代科技公司开放式办公区，深夜只有零星工位亮着冷白色屏幕光，暗光环境，多显示器工位，散落的咖啡杯和零食包装，窗外城市夜景隐约可见。</p></div></div><div class="segment"><h2>🎬 Segment 01</h2><div class="meta">📍 [办公室-深夜]</div><div class="meta">👥 [林昊], [赵哥]</div><div class="physical-state"><strong>Physical State:</strong><br>- [林昊]: 画面左侧，坐在工位椅上，双手搭在键盘上，眼睛疲惫半眯盯着屏幕
+- [赵哥]: 画面右侧远处，坐在隔壁工位，背对[林昊]，低头看手机</div><div class="part"><span class="part-num">Part 1</span> <span class="char-tag">[林昊]</span>揉着酸涩的眼睛盯着满屏代码，疲惫地嘟囔说：<span class="dialogue">"这破bug改了三天了……"</span></div><div class="part"><span class="part-num">Part 2</span> 屏幕突然剧烈闪烁，<span class="char-tag">[林昊]</span>猛往后仰双手抓住椅子扶手瞳孔瞬间放大，惊恐喊道：<span class="dialogue">"什……什么情况？！"</span></div><div class="part"><span class="part-num">Part 3</span> <span class="char-tag">[林昊]</span>缓缓站起来双手微颤目光扫过整个办公室，内心独白低声说：<span class="dialogue">"我……我能看到所有数据？"</span></div><div class="part"><span class="part-num">Part 4</span> <span class="char-tag">[林昊]</span>无意间看到角落里老板手机的数据流正在运行游戏，捂嘴肩膀微颤忍笑低声说：<span class="dialogue">"李总……你段位比我还低？"</span></div><div class="part"><span class="part-num">Part 5</span> <span class="char-tag">[林昊]</span>目光扫到<span class="char-tag">[赵哥]</span>工位，笑容瞬间消失瞳孔收缩拳头握紧，倒吸一口气说：<span class="dialogue">"赵哥……你在干什么？！"</span></div><div class="part"><span class="part-num">Part 6</span> <span class="char-tag">[赵哥]</span>似乎感觉到什么缓缓转过头正好对上<span class="char-tag">[林昊]</span>的目光，手机屏幕朝下扣在桌上，笑容僵硬地说：<span class="dialogue">"小林……这么晚还没走？"</span></div><div class="camera">🎥 中景起始，缓推近景，Part 4快切，Part 6双人侧面对峙构图浅景深，正常速度</div></div>
+</body>
+</html>
