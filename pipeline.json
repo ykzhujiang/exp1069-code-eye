@@ -1,0 +1,35 @@
+{
+  "project": "exp1069-code-eye",
+  "created_at": "2026-04-08T05:06:15.138128+00:00",
+  "github_repo": "ykzhujiang/exp1069-code-eye",
+  "config": {
+    "theme": "程序员深夜加班debug时触发量子意识协议，获得看穿数据流的能力，第一次使用就发现老实同事在给竞争对手发公司核心代码",
+    "genre": "thriller",
+    "style": "realistic",
+    "duration": 60,
+    "characters": 2,
+    "setting": "中国·当代·深夜科技公司办公室",
+    "ratio": "9:16",
+    "episode": "ep01",
+    "source_video": null,
+    "entry": "B"
+  },
+  "status": "not_started",
+  "steps": {
+    "step1b": {
+      "status": "not_started"
+    },
+    "step1.5": {
+      "status": "not_started"
+    },
+    "step3": {
+      "status": "not_started"
+    },
+    "step4": {
+      "status": "not_started"
+    },
+    "step6": {
+      "status": "not_started"
+    }
+  }
+}
